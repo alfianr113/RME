@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>INDOSEHAT GRUP </title>
+	<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+	<link rel="icon" href="assets/img/logo.png" type="image/x-icon"/>
+
+	<!-- Fonts and icons -->
+	<script src="assets/js/plugin/webfont/webfont.min.js"></script>
+	<script>
+		WebFont.load({
+			google: {"families":["Lato:300,400,700,900"]},
+			custom: {"families":["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands", "simple-line-icons"], urls: ['assets/css/fonts.min.css']},
+			active: function() {
+				sessionStorage.fonts = true;
+			}
+		});
+	</script>
+
+	<!-- CSS Files -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/atlantis2.css">
+
+	<!-- CSS Just for demo purpose, don't include it in your project -->
+	<link rel="stylesheet" href="assets/css/demo.css">
+</head>
+<body>
+	<div class="wrapper horizontal-layout-2">
+		
+		<div class="main-header" data-background-color="light-blue2">
+			<div class="nav-top">
+				<div class="container d-flex flex-row">
+					<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon">
+							<i class="icon-menu"></i>
+						</span>
+					</button>
+					<button class="topbar-toggler more"><i class="icon-options-vertical"></i></button>
+					<!-- Logo Header -->
+					<a href="index.html" class="logo d-flex align-items-center">
+						<img src="assets/img/logoklinik.png" alt="navbar brand" class="navbar-brand">
+					</a>
+					<!-- End Logo Header -->
+
+					<!-- Navbar Header -->
+					<nav class="navbar navbar-header navbar-expand-lg p-0">
+
+						<div class="container-fluid p-0">
+							<div class="collapse" id="search-nav">
+								<form class="navbar-left navbar-form nav-search ml-md-3">
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<button type="submit" class="btn btn-search pr-1">
+												<i class="fa fa-search search-icon"></i>
+											</button>
+										</div>
+										<input type="text" placeholder="Search ..." class="form-control">
+									</div>
+								</form>
+							</div>
+							<ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
+								<li class="nav-item toggle-nav-search hidden-caret">
+									<a class="nav-link" data-toggle="collapse" href="#search-nav" role="button" aria-expanded="false" aria-controls="search-nav">
+										<i class="fa fa-search"></i>
+									</a>
+								</li>
+								<li class="nav-item dropdown hidden-caret">
+									<a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false">
+										<div class="avatar-sm">
+											<img src="assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
+										</div>
+									</a>
+									<ul class="dropdown-menu dropdown-user animated fadeIn">
+										<div class="dropdown-user-scroll scrollbar-outer">
+											<li>
+												<div class="user-box">
+													<div class="avatar-lg"><img src="assets/img/profile.jpg" alt="image profile" class="avatar-img rounded"></div>
+													<div class="u-text">
+														<h4>Hizrian</h4>
+														<p class="text-muted">hello@example.com</p>
+													</div>
+												</div>
+											</li>
+											<li>
+												<a class="dropdown-item" href="#">Account Setting</a>
+												<div class="dropdown-divider"></div>
+												<a class="dropdown-item" href="login.html">Logout</a>
+											</li>
+										</div>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</nav>
+					<!-- End Navbar -->
+				</div>
+			</div>
+			<div class="nav-bottom">
+				<div class="container">
+					<h3 class="title-menu d-flex d-lg-none"> 
+						Menu 
+						<div class="close-menu"> <i class="flaticon-cross"></i></div>
+					</h3>
+					<ul class="nav page-navigation page-navigation-info bg-white">
+						
+						<li class="nav-item submenu active">
+							<a class="nav-link" href="#">
+								<i class="link-icon icon-home"></i>
+								<span class="menu-title">Pendaftaran</span>
+							</a>
+							<div class="navbar-dropdown animated fadeIn">
+								<ul>
+									<li>
+										<a href="pengunjung.html">Pengunjung</a>
+									</li>
+									<li>
+										<a href="pasien.html">Pasien</a>
+									</li>
+									<li>
+										<a href="reservasi.html">Reservasi</a>
+									</li>
+									<li>
+										<a href="rawatJalan.html">Rawat Jalan</a>
+									</li>
+									<li>
+										<a href="rawatInap.html">Rawat Inap</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item submenu mega-menu dropdown">
+							<a class="nav-link" href="#">
+								<i class="link-icon icon-film"></i>
+								<span class="menu-title">Pelayanan</span>
+							</a>
+							<div class="navbar-dropdown animated fadeIn">
+								<div class="col-group-wrapper row">
+									<div class="col-group col-md-4">
+										<div class="row">
+											<div class="col-12">
+												<p class="category-heading">Pendaftaran</p>
+												<div class="submenu-item">
+													<div class="row">
+														<div class="col-md-6">
+															<ul>
+																<li><a href="anjunganMandiri.html">Anjungan Pendaftaran Mandiri</a></li>
+																<li><a href="tambahPasien.html">Pendaftaran Manual</a></li>
+																<li><a href="fingerPrint.html">Finger Print</a></li>
+																<li><a href="registrasi.html">Pengelolaan Antrian</a></li>
+																<li><a href="halamanAntrian.html">Informasi Antrian</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-group col-md-4">
+										<div class="row">
+											<div class="col-12">
+												<p class="category-heading">Kasir</p>
+												<div class="submenu-item">
+													<div class="row">
+														<div class="col-md-6">
+															<ul>
+																<li><a href="transaksiKasir.html">Transaksi</a></li>
+																<li><a href="serahTerimaObat.html">Serah Terima Obat</a></li>
+																<li><a href="jadwalDokter.html">Jadwal Dokter</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-group col-md-4">
+										<p class="category-heading">Farmasi</p>
+										<ul class="submenu-item">
+											<li><a href="daftarObat.html">Daftar Obat</a></li>
+											<li><a href="daftarRacikan.html">Racikan</a></li>
+											<li><a href="transaksiObat.html">Transaksi Obat</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item submenu mega-menu dropdown">
+							<a class="nav-link" href="#">
+								<i class="link-icon icon-film"></i>
+								<span class="menu-title">Manajemen</span>
+							</a>
+							<div class="navbar-dropdown animated fadeIn">
+								<div class="col-group-wrapper row">
+									<div class="col-group col-md-4">
+										<div class="row">
+											<div class="col-12">
+												<p class="category-heading">Syarat dan Ketentuan</p>
+												<div class="submenu-item">
+													<div class="row">
+														<div class="col-md-6">
+															<ul>
+																<li><a href="integrasiBPJS.html">Integrasi BPJS</a></li>
+																<li><a href="integrasiSatuSehat.html">Integrasi Satu Sehat</a></li>
+																<li><a href="programPelatihan.html">Pelatihan Pengguna Aplikasi</a></li>
+																<li><a href="programPendampingan.html">Pendampingan</a></li>
+																<li><a href="programBimbinganAkre.html">Bimbingan AKreditasi</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-group col-md-4">
+										<p class="category-heading">Klinik Pintar</p>
+										<ul class="submenu-item">
+											<li><a href="kamusObat.html">Kamus Obat Elektronik</a></li>
+											<li><a href="Icare.html">ICare</a></li>
+											<li><a href="satuSehatPlatform.html">Satu Sehat Platform</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item submenu">
+							<a class="nav-link" href="#">
+								<i class="link-icon icon-disc"></i>
+								<span class="menu-title">Master Data</span>
+							</a>
+							<div class="navbar-dropdown animated fadeIn">
+								<ul>
+									<p class="category-heading">Data-Data Klinik</p>
+									<li>
+										<a href="informasiKlinik.html">Informasi Klinik</a>
+									</li>
+									<li>
+										<a href="daftarPengguna.html">Pengguna Aplikasi</a>
+									</li>
+									<li>
+										<a href="daftarPenjamin.html">Penjamin</a>
+									</li>
+                                    <li>
+										<a href="daftarPoliklinik.html">Poliklinik</a>
+									</li>
+                                    <li>
+										<a href="daftarLayanan.html">Layanan</a>
+									</li>
+                                    <li>
+										<a href="tenagaKesehatan.html">Tenaga Kesehatan</a>
+									</li>
+                                    <li>
+										<a href="daftarKomisi.html">Komisi Tenaga Kesehatan</a>
+									</li>
+                                    <li>
+										<a href="daftarKamar.html">Kamar Inap</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item submenu">
+							<a class="nav-link" href="#">
+								<i class="link-icon icon-book-open"></i>
+								<span class="menu-title">Laporan</span>
+							</a>
+							<div class="navbar-dropdown animated fadeIn">
+								<ul>
+									<li>
+										<a href="laporanPendapatan.html">Laporan Pendapatan</a>
+									</li>
+									<li>
+										<a href="laporanLayanan.html">Laporan Layanan</a>
+									</li>
+									<li>
+										<a href="laporanInventori.html">Laporan Inventori</a>
+									</li>
+									<li>
+										<a href="laporanPenyakit.html">Laporan Penyakit</a>
+									</li>
+									<li>
+										<a href="laporanKomisi.html">Laporan Komisi</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item submenu">
+							<a class="nav-link" href="#">
+								<i class="link-icon icon-pie-chart"></i>
+								<span class="menu-title">Grafik</span>
+							</a>
+							<div class="navbar-dropdown animated fadeIn">
+								<ul>
+									<li>
+										<a href="grafikPendapatan.html">Grafik Pendapatan</a>
+									</li>
+									<li>
+										<a href="grafikLayanan.html">Grafik Layanan</a>
+									</li>
+									<li>
+										<a href="grafikInventori.html">Grafik Inventori</a>
+									</li>
+									<li>
+										<a href="grafikPenyakit.html">Grafik Penyakit</a>
+									</li>
+									<li>
+										<a href="grafikKomisi.html">Grafik Komisi</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="main-panel">
+			<div class="container">
+				<div class="page-inner">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="card">
+								<div class="card-header">
+									<div class="card-title">Pendaftar Pasien Baru</div>
+									<div class="card-category"><h6 style="color:red">* wajib diisi</h6></div>
+								</div>
+								<form action="#" method="POST">
+                                    <div class="card-body">
+                                    <center><b>Data Pasien</b></h5></center>
+                                      <div class="form-group row">
+                                          <label for="inputPassword3" class="col-sm-2 col-form-label">Nomor Rekam Medis <span style="color:red">*</span></label>
+                                          <div class="col-sm-10">
+                                              <input type="text" class="form-control" id="inputPassword3" readonly name="no_rekam_medis" value="" required>
+                                          </div>
+                                      </div>
+                                      <div class="form-group row">
+                                          <label for="inputPassword3" class="col-sm-2 col-form-label">Nomor BPJS<span style="color:red">*</span></label>
+                                          <div class="col-sm-8">
+                                              <input type="text" class="form-control" id="inputPassword3" name="no_bpjs" placeholder="Isi Nomor BPJS Jika Ada (Kosongkan jika tidak)">
+                                          </div>
+										  <button class="btn btn-primary btn-border col-sm-2">Cek Data</button>
+                                      </div>
+                                      <div class="form-group row">
+                                          <label for="inputPassword3" class="col-sm-2 col-form-label" required>Nama Pasien <span style="color:red">*</span></label>
+                                          <div class="col-sm-2">
+                                              <select class="form-control" name="status_pasien" required>
+                                                <option value="">-- Beri Panggilan --</option>
+                                                <option value="Tuan">Tuan</option>
+                                                <option value="Nyonya">Nyonya</option>
+                                                <option value="Anak">Anak</option>
+                                                <option value="Nona">Nona</option>
+                                              </select>
+                                          </div>
+                                          <div class="col-sm-8">
+                                              <input type="text" class="form-control" id="inputPassword3" name="nama_pasien" placeholder="Masukkan Nama Lengkap" required>
+                                          </div>
+                                      </div>
+                                      
+                                      <div class="form-group row">
+                                          <label for="inputPassword3" class="col-sm-2 col-form-label">Tempat <span style="color:red">*</span></label>
+                                          <div class="col-sm-4">
+                                              <input type="text" class="form-control" id="inputPassword3" name="tempat_lahir" placeholder="Masukkan Nama Kota" required>
+                                          </div>
+                                          <label for="inputPassword3" class="col-sm-2 col-form-label" style="text-align:right">Tanggal Lahir <span style="color:red">*</span></label>
+                                          <div class="col-sm-4">
+                                              <input type="date" class="form-control" id="inputPassword3" name="tanggal_lahir" required >
+                                          </div>
+                                      </div>
+                                      <div class="form-group row">
+                                          <label for="inputPassword3" class="col-sm-2 col-form-label">NIK / No. KTP<span style="color:red">*</span></label>
+                                          <div class="col-sm-10">
+                                              <input type="number" class="form-control" id="inputPassword3" name="nik_ktp" placeholder="Masukkan NIK atau No KTP">
+                                          </div>
+                                      </div>
+                  
+                                      <div class="form-group row">
+                                      <label for="inputPassword3" class="col-sm-2 col-form-label">Alamat KTP <span style="color:red">*</span></label>
+                                        <div class="col-sm-3">
+                                              <select class="form-control" id="form_prov" name="ktp_provinsi" required>
+                                                <option value="">Pilih Provinsi</option>
+												<option value="11">ACEH</option>
+												<option value="51">BALI</option>
+												<option value="36">BANTEN</option>
+												<option value="17">BENGKULU</option>
+												<option value="34">DAERAH ISTIMEWA YOGYAKARTA</option>
+												<option value="31">DKI JAKARTA</option>
+												<option value="75">GORONTALO</option>
+												<option value="15">JAMBI</option>
+												<option value="32">JAWA BARAT</option>
+												<option value="33">JAWA TENGAH</option>
+												<option value="35">JAWA TIMUR</option>
+												<option value="61">KALIMANTAN BARAT</option>
+												<option value="63">KALIMANTAN SELATAN</option>
+												<option value="62">KALIMANTAN TENGAH</option>
+												<option value="64">KALIMANTAN TIMUR</option>
+												<option value="65">KALIMANTAN UTARA</option>
+												<option value="19">KEPULAUAN BANGKA BELITUNG</option>
+												<option value="21">KEPULAUAN RIAU</option>
+												<option value="18">LAMPUNG</option>
+												<option value="81">MALUKU</option>
+												<option value="82">MALUKU UTARA</option>
+												<option value="52">NUSA TENGGARA BARAT</option>
+												<option value="53">NUSA TENGGARA TIMUR</option>
+												<option value="91">PAPUA</option>
+												<option value="92">PAPUA BARAT</option>
+												<option value="14">RIAU</option>
+												<option value="76">SULAWESI BARAT</option>
+												<option value="73">SULAWESI SELATAN</option>
+												<option value="72">SULAWESI TENGAH</option>
+												<option value="74">SULAWESI TENGGARA</option>
+												<option value="71">SULAWESI UTARA</option>
+												<option value="13">SUMATERA BARAT</option>
+												<option value="16">SUMATERA SELATAN</option>
+												<option value="12">SUMATERA UTARA</option>
+                                              </select>
+                                        </div>
+                                        <div class="col-sm-3">
+                                          <select class="form-control" id="form_kab" name="ktp_kota" required></select>
+                                        </div>
+                                        <div class="col-sm-2">
+                                          <select class="form-control" id="form_kec" name="ktp_kecamatan" required></select>
+                                        </div>
+                                        <div class="col-sm-2">
+                                          <select class="form-control" id="form_des" name="ktp_kelurahan" required></select>
+                                        </div>
+                                      </div>
+                                      <div class="form-group row">
+                                          <label for="inputPassword3" class="col-sm-2 col-form-label"></label>
+                                          <div class="col-sm-3">
+                                              <input type="text" class="form-control" id="inputPassword3" placeholder="Nama Jalan" name="ktp_jalan" required>
+                                          </div>
+                                          <div class="col-sm-2">
+                                              <input type="number" class="form-control" id="inputPassword3" placeholder="Nomor Rumah" name="ktp_nomor" required>
+                                          </div>
+                                          <div class="col-sm-1">
+                                              <input type="number" class="form-control" id="inputPassword3" placeholder="RT" name="ktp_rt" required>
+                                          </div>
+                                          <div class="col-sm-1">
+                                              <input type="number" class="form-control" id="inputPassword3" placeholder="RW" name="ktp_rw" required>
+                                          </div>
+                                          <div class="col-sm-3">
+                                              <input type="number" class="form-control" id="inputPassword3" placeholder="KD Pos" name="ktp_kodepos" required>
+                                          </div>
+                                      </div>
+                                      <div class="form-group row">
+                                      <label for="inputPassword3" class="col-sm-2 col-form-label">Alamat Tinggal <span style="color:red">*</span></label>
+                                        <div class="col-sm-3">
+                                              <select class="form-control" id="form_prov1" name="tinggal_provinsi" required>
+                                                <option value="">Pilih Provinsi</option>
+												<option value="11">ACEH</option>
+												<option value="51">BALI</option>
+												<option value="36">BANTEN</option>
+												<option value="17">BENGKULU</option>
+												<option value="34">DAERAH ISTIMEWA YOGYAKARTA</option>
+												<option value="31">DKI JAKARTA</option>
+												<option value="75">GORONTALO</option>
+												<option value="15">JAMBI</option>
+												<option value="32">JAWA BARAT</option>
+												<option value="33">JAWA TENGAH</option>
+												<option value="35">JAWA TIMUR</option>
+												<option value="61">KALIMANTAN BARAT</option>
+												<option value="63">KALIMANTAN SELATAN</option>
+												<option value="62">KALIMANTAN TENGAH</option>
+												<option value="64">KALIMANTAN TIMUR</option>
+												<option value="65">KALIMANTAN UTARA</option>
+												<option value="19">KEPULAUAN BANGKA BELITUNG</option>
+												<option value="21">KEPULAUAN RIAU</option>
+												<option value="18">LAMPUNG</option>
+												<option value="81">MALUKU</option>
+												<option value="82">MALUKU UTARA</option>
+												<option value="52">NUSA TENGGARA BARAT</option>
+												<option value="53">NUSA TENGGARA TIMUR</option>
+												<option value="91">PAPUA</option>
+												<option value="92">PAPUA BARAT</option>
+												<option value="14">RIAU</option>
+												<option value="76">SULAWESI BARAT</option>
+												<option value="73">SULAWESI SELATAN</option>
+												<option value="72">SULAWESI TENGAH</option>
+												<option value="74">SULAWESI TENGGARA</option>
+												<option value="71">SULAWESI UTARA</option>
+												<option value="13">SUMATERA BARAT</option>
+												<option value="16">SUMATERA SELATAN</option>
+												<option value="12">SUMATERA UTARA</option>
+                                              </select>
+                                        </div>
+                                        <div class="col-sm-3">
+                                          <select class="form-control" id="form_kab1" name="tinggal_kota" required></select>
+                                        </div>
+                                        <div class="col-sm-2">
+                                          <select class="form-control" id="form_kec1" name="tinggal_kecamatan" required></select>
+                                        </div>
+                                        <div class="col-sm-2">
+                                          <select class="form-control" id="form_des1" name="tinggal_kelurahan" required></select>
+                                        </div>
+                                      </div>
+                                      <div class="form-group row">
+                                          <label for="inputPassword3" class="col-sm-2 col-form-label"></label>
+                                          <div class="col-sm-3">
+                                              <input type="text" class="form-control" id="inputPassword3" placeholder="Nama Jalan" name="tinggal_jalan" required>
+                                          </div>
+                                          <div class="col-sm-2">
+                                              <input type="number" class="form-control" id="inputPassword3" placeholder="Nomor Rumah" name="tinggal_nomor" required>
+                                          </div>
+                                          <div class="col-sm-1">
+                                              <input type="number" class="form-control" id="inputPassword3" placeholder="RT" name="tinggal_rt" required>
+                                          </div>
+                                          <div class="col-sm-1">
+                                              <input type="number" class="form-control" id="inputPassword3" placeholder="RW" name="tinggal_rw" required>
+                                          </div>
+                                          <div class="col-sm-3">
+                                              <input type="number" class="form-control" id="inputPassword3" placeholder="KD Pos" name="tinggal_kodepos" required>
+                                          </div>
+                                      </div>
+                                      <script type="text/javascript">
+                                      
+                                      $(document).ready(function(){
+                  
+                                        // sembunyikan form kabupaten, kecamatan dan desa
+                                        $("#form_kab").hide();
+                                        $("#form_kec").hide();
+                                        $("#form_des").hide();
+                  
+                                        // ambil data kabupaten ketika data memilih provinsi
+                                        $('body').on("change","#form_prov",function(){
+                                          var id = $(this).val();
+                                          var data = "id="+id+"&data=kabupaten";
+                                          $.ajax({
+                                            type: 'POST',
+                                            url: "get_daerah.php",
+                                            data: data,
+                                            success: function(hasil) {
+                                              $("#form_kab").html(hasil);
+                                              $("#form_kab").show();
+                                              $("#form_kec").hide();
+                                              $("#form_des").hide();
+                                            }
+                                          });
+                                        });
+                  
+                                        // ambil data kecamatan/kota ketika data memilih kabupaten
+                                        $('body').on("change","#form_kab",function(){
+                                          var id = $(this).val();
+                                          var data = "id="+id+"&data=kecamatan";
+                                          $.ajax({
+                                            type: 'POST',
+                                            url: "get_daerah.php",
+                                            data: data,
+                                            success: function(hasil) {
+                                              $("#form_kec").html(hasil);
+                                              $("#form_kec").show();
+                                              $("#form_des").hide();
+                                            }
+                                          });
+                                        });
+                  
+                                        // ambil data desa ketika data memilih kecamatan/kota
+                                        $('body').on("change","#form_kec",function(){
+                                          var id = $(this).val();
+                                          var data = "id="+id+"&data=desa";
+                                          $.ajax({
+                                            type: 'POST',
+                                            url: "get_daerah.php",
+                                            data: data,
+                                            success: function(hasil) {
+                                              $("#form_des").html(hasil);
+                                              $("#form_des").show();
+                                            }
+                                          });
+                                        });
+                  
+                  
+                                      });
+                                    </script>
+                  
+                                    <script type="text/javascript">
+                                      
+                                      $(document).ready(function(){
+                  
+                                        // sembunyikan form kabupaten, kecamatan dan desa
+                                        $("#form_kab1").hide();
+                                        $("#form_kec1").hide();
+                                        $("#form_des1").hide();
+                  
+                                        // ambil data kabupaten ketika data memilih provinsi
+                                        $('body').on("change","#form_prov1",function(){
+                                          var id = $(this).val();
+                                          var data = "id="+id+"&data=kabupaten1";
+                                          $.ajax({
+                                            type: 'POST',
+                                            url: "get_daerah1.php",
+                                            data: data,
+                                            success: function(hasil) {
+                                              $("#form_kab1").html(hasil);
+                                              $("#form_kab1").show();
+                                              $("#form_kec1").hide();
+                                              $("#form_des1").hide();
+                                            }
+                                          });
+                                        });
+                  
+                                        // ambil data kecamatan/kota ketika data memilih kabupaten
+                                        $('body').on("change","#form_kab1",function(){
+                                          var id = $(this).val();
+                                          var data = "id="+id+"&data=kecamatan1";
+                                          $.ajax({
+                                            type: 'POST',
+                                            url: "get_daerah1.php",
+                                            data: data,
+                                            success: function(hasil) {
+                                              $("#form_kec1").html(hasil);
+                                              $("#form_kec1").show();
+                                              $("#form_des1").hide();
+                                            }
+                                          });
+                                        });
+                  
+                                        // ambil data desa ketika data memilih kecamatan/kota
+                                        $('body').on("change","#form_kec1",function(){
+                                          var id = $(this).val();
+                                          var data = "id="+id+"&data=desa1";
+                                          $.ajax({
+                                            type: 'POST',
+                                            url: "get_daerah1.php",
+                                            data: data,
+                                            success: function(hasil) {
+                                              $("#form_des1").html(hasil);
+                                              $("#form_des1").show();
+                                            }
+                                          });
+                                        });
+                  
+                  
+                                      });
+                                    </script>
+                  
+                                      <div class="form-group row">
+                                          <label for="inputPassword3" class="col-sm-2 col-form-label">Pendidikan Terakhir <span style="color:red">*</span></label>
+                                          <div class="col-sm-4">
+                                              <select class="form-control" name="pendidikan_terakhir" required>
+                                                <option value="">-- Pilih Pendidikan Terakhir --</option>
+                                                <option value="belum sekolah/ tidak sekolah">belum sekolah/ tidak sekolah</option>
+                                                <option value="SD">SD (Sekolah Dasar)</option>
+                                                <option value="SMP/MTs">SMP/MTs</option>
+                                                <option value="SMA/SMK/MA">SMA/SMK/MA</option>
+                                                <option value="D3 (Diploma 3)">D3 (Diploma 3)</option>
+                                                <option value="S1 (Sarjana)">S1 (Sarjana)</option>
+                                                <option value="S2 (Magister)">S2 (Magister)</option>
+                                                <option value="S3 (Doktor)">S3 (Doktor)</option>
+                                              </select>
+                                          </div>
+                                          <label for="inputPassword3" class="col-sm-2 col-form-label" style="text-align:right">Agama <span style="color:red">*</span></label>
+                                          <div class="col-sm-4">
+                                              <select class="form-control" name="agama" required>
+                                                <option value="">-- Pilih Agama --</option>
+                                                <option value="Islam">Islam</option>
+                                                <option value="Katolik">Katolik</option>
+                                                <option value="Kristen Protestan">Kristen Protestan</option>
+                                                <option value="Hindu">Hindu</option>
+                                                <option value="Budha">Budha</option>
+                                                <option value="Konghucu">Konghucu</option>
+                                              </select>
+                                          </div>
+                                      </div>
+                                      <div class="form-group row">
+                                          <label for="inputPassword3" class="col-sm-2 col-form-label">Jenis Kelamin <span style="color:red">*</span></label>
+                                          <div class="col-sm-4">
+                                              <select class="form-control" name="jenis_kelamin" required>
+                                                <option value="">-- Pilih Jenis Kelamin --</option>
+                                                <option value="Laki - laki">Laki - laki</option>
+                                                <option value="Perempuan">Perempuan</option>
+                                              </select>
+                                          </div>
+                                          <label for="inputPassword3" class="col-sm-2 col-form-label" style="text-align:right">Status Pernikahan <span style="color:red">*</span></label>
+                                          <div class="col-sm-4">
+                                              <select class="form-control" name="status_pernikahan" required>
+                                                <option value="">-- Status Pernikahan --</option>
+                                                <option value="Menikah">Menikah</option>
+                                                <option value="Belum Menikah">Belum Menikah</option>
+                                                <option value="Cerai Hidup">Cerai Hidup</option>
+                                                <option value="Cerai Mati">Cerai Mati</option>
+                                              </select>
+                                          </div>
+                                      </div>
+                                      <div class="form-group row">
+                                          <label for="inputPassword3" class="col-sm-2 col-form-label">Suku</label>
+                                          <div class="col-sm-4">
+                                              <input type="text" class="form-control" id="inputPassword3" name="suku" placeholder="Masukkan Asal Suku">
+                                          </div>
+                                          <label for="inputPassword3" class="col-sm-2 col-form-label" style="text-align:right">Bahasa</label>
+                                          <div class="col-sm-4">
+                                              <input type="text" class="form-control" id="inputPassword3" name="bahasa" placeholder="Masukkan Bahasa Yang Digunakan">
+                                          </div>
+                                      </div>
+                                      <div class="form-group row">
+                                          <label for="inputPassword3" class="col-sm-2 col-form-label">Pekerjaan</label>
+                                          <div class="col-sm-4">
+                                              <input type="text" class="form-control" id="inputPassword3" name="pekerjaan" placeholder="Masukkan Nama Pekerjaan">
+                                          </div>
+                                          <label for="inputPassword3" class="col-sm-2 col-form-label" style="text-align:right">No. Telepon / HP <span style="color:red">*</span></label>
+                                          <div class="col-sm-4">
+                                              <input type="number" class="form-control" id="inputPassword3" name="no_telepon" placeholder="Isi 0 jika tidak ada" required>
+                                          </div>
+                                      </div>
+                                    <!-- /.card-body -->
+                                      </div>
+                                      <center><h5><b>Data Penanggung Jawab</b></h5></center>
+                                      <div class="card-body">
+                                      <div class="form-group row">
+                                          <label for="inputPassword3" class="col-sm-2 col-form-label">Nama Jelas</label>
+                                          <div class="col-sm-10">
+                                              <input type="text" class="form-control" id="inputPassword3" name="nama_jelas" placeholder="Masukkan Nama Penanggung Jawab">
+                                          </div>
+                                      </div>
+                                      <div class="form-group row">
+                                          <label for="inputPassword3" class="col-sm-2 col-form-label">Hub Dengan Pasien</label>
+                                          <div class="col-sm-4">
+                                              <input type="text" class="form-control" id="inputPassword3" name="hub_pasien" placeholder="Apa Hubungan Dengan Pasien">
+                                          </div>
+                                          <label for="inputPassword3" class="col-sm-2 col-form-label" style="text-align:right">No. Telepon / HP</label>
+                                          <div class="col-sm-4">
+                                              <input type="number" class="form-control" id="inputPassword3" name="no_telepon_penanggung" placeholder="Isi 0 jika tidak ada">
+                                          </div>
+                                      </div>   
+                                    <!-- /.card-body -->
+                                   
+                                    
+                                      </div>
+                                     
+                                    <div class="card-footer">
+                                      <a href="pasien.html" class="btn btn-danger" >Kembali</a>
+                                      <button type="submit" class="btn btn-primary float-right">Submit</button>
+                                      
+                                    </div>
+                                  </form>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<nav class="pull-left">
+					<ul class="nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#">
+								INDOSEHAT GROUP
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">
+								CLINIC AND MEDICAL CHECKUP
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">
+								BANTUAN
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="copyright ml-auto">
+					2024, made with <i class="fa fa-heart heart text-danger"></i> by <a href="#">ALBLANA</a>
+				</div>				
+			</div>
+		</footer>
+	</div>
+	<!--   Core JS Files   -->
+	<script src="assets/js/core/jquery.3.2.1.min.js"></script>
+	<script src="assets/js/core/popper.min.js"></script>
+	<script src="assets/js/core/bootstrap.min.js"></script>
+
+	<!-- jQuery UI -->
+	<script src="assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+	<script src="assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+
+	<!-- jQuery Scrollbar -->
+	<script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+	<!-- Moment JS -->
+	<script src="assets/js/plugin/moment/moment.min.js"></script>
+
+	<!-- Chart JS -->
+	<script src="assets/js/plugin/chart.js/chart.min.js"></script>
+
+	<!-- jQuery Sparkline -->
+	<script src="assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+
+	<!-- Chart Circle -->
+	<script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+
+	<!-- Datatables -->
+	<script src="assets/js/plugin/datatables/datatables.min.js"></script>
+
+	<!-- Bootstrap Notify -->
+	<script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+
+	<!-- Bootstrap Toggle -->
+	<script src="assets/js/plugin/bootstrap-toggle/bootstrap-toggle.min.js"></script>
+
+	<!-- jQuery Vector Maps -->
+	<script src="assets/js/plugin/jqvmap/jquery.vmap.min.js"></script>
+	<script src="assets/js/plugin/jqvmap/maps/jquery.vmap.world.js"></script>
+
+	<!-- Google Maps Plugin -->
+	<script src="assets/js/plugin/gmaps/gmaps.js"></script>
+
+	<!-- Dropzone -->
+	<script src="assets/js/plugin/dropzone/dropzone.min.js"></script>
+
+	<!-- Fullcalendar -->
+	<script src="assets/js/plugin/fullcalendar/fullcalendar.min.js"></script>
+
+	<!-- DateTimePicker -->
+	<script src="assets/js/plugin/datepicker/bootstrap-datetimepicker.min.js"></script>
+
+	<!-- Bootstrap Tagsinput -->
+	<script src="assets/js/plugin/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>
+
+	<!-- Bootstrap Wizard -->
+	<script src="assets/js/plugin/bootstrap-wizard/bootstrapwizard.js"></script>
+
+	<!-- jQuery Validation -->
+	<script src="assets/js/plugin/jquery.validate/jquery.validate.min.js"></script>
+
+	<!-- Summernote -->
+	<script src="assets/js/plugin/summernote/summernote-bs4.min.js"></script>
+
+	<!-- Select2 -->
+	<script src="assets/js/plugin/select2/select2.full.min.js"></script>
+
+	<!-- Sweet Alert -->
+	<script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+	<!-- Atlantis JS -->
+	<script src="assets/js/atlantis2.min.js"></script>
+
+	<script >
+		$(document).ready(function() {
+			$('#basic-datatables').DataTable({
+			});
+
+			$('#multi-filter-select').DataTable( {
+				"pageLength": 5,
+				initComplete: function () {
+					this.api().columns().every( function () {
+						var column = this;
+						var select = $('<select class="form-control"><option value=""></option></select>')
+						.appendTo( $(column.footer()).empty() )
+						.on( 'change', function () {
+							var val = $.fn.dataTable.util.escapeRegex(
+								$(this).val()
+								);
+
+							column
+							.search( val ? '^'+val+'$' : '', true, false )
+							.draw();
+						} );
+
+						column.data().unique().sort().each( function ( d, j ) {
+							select.append( '<option value="'+d+'">'+d+'</option>' )
+						} );
+					} );
+				}
+			});
+
+			// Add Row
+			$('#add-row').DataTable({
+				"pageLength": 5,
+			});
+
+			//var action = '<td> <div class="form-button-action"> <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task"> <i class="fa fa-edit"></i> </button> <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Remove"> <i class="fa fa-times"></i> </button> </div> </td>';
+
+			$('#addRowButton').click(function() {
+				$('#add-row').dataTable().fnAddData([
+					$("#addName").val(),
+					$("#addPosition").val(),
+					$("#addOffice").val(),
+					action
+					]);
+				$('#addRowModal').modal('hide');
+
+			});
+		});
+	</script>
+</body>
+</html>

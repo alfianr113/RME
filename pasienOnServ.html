@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>INDOSEHAT GRUP </title>
+	<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+	<link rel="icon" href="assets/img/logo.png" type="image/x-icon"/>
+
+	<!-- Fonts and icons -->
+	<script src="assets/js/plugin/webfont/webfont.min.js"></script>
+	<script>
+		WebFont.load({
+			google: {"families":["Lato:300,400,700,900"]},
+			custom: {"families":["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands", "simple-line-icons"], urls: ['assets/css/fonts.min.css']},
+			active: function() {
+				sessionStorage.fonts = true;
+			}
+		});
+	</script>
+
+	<!-- CSS Files -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/atlantis2.css">
+
+	<!-- CSS Just for demo purpose, don't include it in your project -->
+	<link rel="stylesheet" href="assets/css/demo.css">
+</head>
+<body>
+	<div class="wrapper horizontal-layout-2">
+		
+		<div class="main-header" data-background-color="light-blue2">
+			<div class="nav-top">
+				<div class="container d-flex flex-row">
+					<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon">
+							<i class="icon-menu"></i>
+						</span>
+					</button>
+					<button class="topbar-toggler more"><i class="icon-options-vertical"></i></button>
+					<!-- Logo Header -->
+					<a href="index.html" class="logo d-flex align-items-center">
+						<img src="assets/img/logoklinik.png" alt="navbar brand" class="navbar-brand">
+					</a>
+					<!-- End Logo Header -->
+
+					<!-- Navbar Header -->
+					<nav class="navbar navbar-header navbar-expand-lg p-0">
+
+						<div class="container-fluid p-0">
+							<div class="collapse" id="search-nav">
+								<form class="navbar-left navbar-form nav-search ml-md-3">
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<button type="submit" class="btn btn-search pr-1">
+												<i class="fa fa-search search-icon"></i>
+											</button>
+										</div>
+										<input type="text" placeholder="Search ..." class="form-control">
+									</div>
+								</form>
+							</div>
+							<ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
+								<li class="nav-item toggle-nav-search hidden-caret">
+									<a class="nav-link" data-toggle="collapse" href="#search-nav" role="button" aria-expanded="false" aria-controls="search-nav">
+										<i class="fa fa-search"></i>
+									</a>
+								</li>
+								<li class="nav-item dropdown hidden-caret">
+									<a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false">
+										<div class="avatar-sm">
+											<img src="assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
+										</div>
+									</a>
+									<ul class="dropdown-menu dropdown-user animated fadeIn">
+										<div class="dropdown-user-scroll scrollbar-outer">
+											<li>
+												<div class="user-box">
+													<div class="avatar-lg"><img src="assets/img/profile.jpg" alt="image profile" class="avatar-img rounded"></div>
+													<div class="u-text">
+														<h4>Hizrian</h4>
+														<p class="text-muted">hello@example.com</p>
+													</div>
+												</div>
+											</li>
+											<li>
+												<a class="dropdown-item" href="#">Account Setting</a>
+												<div class="dropdown-divider"></div>
+												<a class="dropdown-item" href="login.html">Logout</a>
+											</li>
+										</div>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</nav>
+					<!-- End Navbar -->
+				</div>
+			</div>
+			<div class="nav-bottom">
+				<div class="container">
+					<h3 class="title-menu d-flex d-lg-none"> 
+						Menu 
+						<div class="close-menu"> <i class="flaticon-cross"></i></div>
+					</h3>
+					<ul class="nav page-navigation page-navigation-info bg-white">
+						
+						<li class="nav-item submenu active">
+							<a class="nav-link" href="#">
+								<i class="link-icon icon-home"></i>
+								<span class="menu-title">Pendaftaran</span>
+							</a>
+							<div class="navbar-dropdown animated fadeIn">
+								<ul>
+									<li>
+										<a href="pengunjung.html">Pengunjung</a>
+									</li>
+									<li>
+										<a href="pasien.html">Pasien</a>
+									</li>
+									<li>
+										<a href="reservasi.html">Reservasi</a>
+									</li>
+									<li>
+										<a href="rawatJalan.html">Rawat Jalan</a>
+									</li>
+									<li>
+										<a href="rawatInap.html">Rawat Inap</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item submenu mega-menu dropdown">
+							<a class="nav-link" href="#">
+								<i class="link-icon icon-film"></i>
+								<span class="menu-title">Pelayanan</span>
+							</a>
+							<div class="navbar-dropdown animated fadeIn">
+								<div class="col-group-wrapper row">
+									<div class="col-group col-md-4">
+										<div class="row">
+											<div class="col-12">
+												<p class="category-heading">Pendaftaran</p>
+												<div class="submenu-item">
+													<div class="row">
+														<div class="col-md-6">
+															<ul>
+																<li><a href="anjunganMandiri.html">Anjungan Pendaftaran Mandiri</a></li>
+																<li><a href="tambahPasien.html">Pendaftaran Manual</a></li>
+																<li><a href="fingerPrint.html">Finger Print</a></li>
+																<li><a href="registrasi.html">Pengelolaan Antrian</a></li>
+																<li><a href="halamanAntrian.html">Informasi Antrian</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-group col-md-4">
+										<div class="row">
+											<div class="col-12">
+												<p class="category-heading">Kasir</p>
+												<div class="submenu-item">
+													<div class="row">
+														<div class="col-md-6">
+															<ul>
+																<li><a href="transaksiKasir.html">Transaksi</a></li>
+																<li><a href="serahTerimaObat.html">Serah Terima Obat</a></li>
+																<li><a href="jadwalDokter.html">Jadwal Dokter</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-group col-md-4">
+										<p class="category-heading">Farmasi</p>
+										<ul class="submenu-item">
+											<li><a href="daftarObat.html">Daftar Obat</a></li>
+											<li><a href="daftarRacikan.html">Racikan</a></li>
+											<li><a href="transaksiObat.html">Transaksi Obat</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item submenu mega-menu dropdown">
+							<a class="nav-link" href="#">
+								<i class="link-icon icon-film"></i>
+								<span class="menu-title">Manajemen</span>
+							</a>
+							<div class="navbar-dropdown animated fadeIn">
+								<div class="col-group-wrapper row">
+									<div class="col-group col-md-4">
+										<div class="row">
+											<div class="col-12">
+												<p class="category-heading">Syarat dan Ketentuan</p>
+												<div class="submenu-item">
+													<div class="row">
+														<div class="col-md-6">
+															<ul>
+																<li><a href="integrasiBPJS.html">Integrasi BPJS</a></li>
+																<li><a href="integrasiSatuSehat.html">Integrasi Satu Sehat</a></li>
+																<li><a href="programPelatihan.html">Pelatihan Pengguna Aplikasi</a></li>
+																<li><a href="programPendampingan.html">Pendampingan</a></li>
+																<li><a href="programBimbinganAkre.html">Bimbingan AKreditasi</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-group col-md-4">
+										<p class="category-heading">Klinik Pintar</p>
+										<ul class="submenu-item">
+											<li><a href="kamusObat.html">Kamus Obat Elektronik</a></li>
+											<li><a href="Icare.html">ICare</a></li>
+											<li><a href="satuSehatPlatform.html">Satu Sehat Platform</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item submenu">
+							<a class="nav-link" href="#">
+								<i class="link-icon icon-disc"></i>
+								<span class="menu-title">Master Data</span>
+							</a>
+							<div class="navbar-dropdown animated fadeIn">
+								<ul>
+									<p class="category-heading">Data-Data Klinik</p>
+									<li>
+										<a href="informasiKlinik.html">Informasi Klinik</a>
+									</li>
+									<li>
+										<a href="daftarPengguna.html">Pengguna Aplikasi</a>
+									</li>
+									<li>
+										<a href="daftarPenjamin.html">Penjamin</a>
+									</li>
+                                    <li>
+										<a href="daftarPoliklinik.html">Poliklinik</a>
+									</li>
+                                    <li>
+										<a href="daftarLayanan.html">Layanan</a>
+									</li>
+                                    <li>
+										<a href="tenagaKesehatan.html">Tenaga Kesehatan</a>
+									</li>
+                                    <li>
+										<a href="daftarKomisi.html">Komisi Tenaga Kesehatan</a>
+									</li>
+                                    <li>
+										<a href="daftarKamar.html">Kamar Inap</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item submenu">
+							<a class="nav-link" href="#">
+								<i class="link-icon icon-book-open"></i>
+								<span class="menu-title">Laporan</span>
+							</a>
+							<div class="navbar-dropdown animated fadeIn">
+								<ul>
+									<li>
+										<a href="laporanPendapatan.html">Laporan Pendapatan</a>
+									</li>
+									<li>
+										<a href="laporanLayanan.html">Laporan Layanan</a>
+									</li>
+									<li>
+										<a href="laporanInventori.html">Laporan Inventori</a>
+									</li>
+									<li>
+										<a href="laporanPenyakit.html">Laporan Penyakit</a>
+									</li>
+									<li>
+										<a href="laporanKomisi.html">Laporan Komisi</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item submenu">
+							<a class="nav-link" href="#">
+								<i class="link-icon icon-pie-chart"></i>
+								<span class="menu-title">Grafik</span>
+							</a>
+							<div class="navbar-dropdown animated fadeIn">
+								<ul>
+									<li>
+										<a href="grafikPendapatan.html">Grafik Pendapatan</a>
+									</li>
+									<li>
+										<a href="grafikLayanan.html">Grafik Layanan</a>
+									</li>
+									<li>
+										<a href="grafikInventori.html">Grafik Inventori</a>
+									</li>
+									<li>
+										<a href="grafikPenyakit.html">Grafik Penyakit</a>
+									</li>
+									<li>
+										<a href="grafikKomisi.html">Grafik Komisi</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="main-panel">
+			<div class="container">
+				<div class="page-inner">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="card card-with-nav">
+								<div class="card-header">
+									<div class="row row-nav-line">
+										<ul class="nav nav-tabs nav-line nav-color-secondary w-100 pl-4" role="tablist">
+											<li class="nav-item"> <a class="nav-link active show" data-toggle="tab" href="#home" role="tab" aria-selected="true">00-00-90-33</a> </li>
+											<li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#pelayanan" role="tab" aria-selected="false">Status Pelayanan</a> </li>
+											<li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#tagihan" role="tab" aria-selected="false">Tagihan Pembayaran</a> </li>
+										</ul>
+									</div>
+								</div>
+								<div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                        <div class="container">
+                                            <div class="page-inner">
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <div class="row border">
+                                                            <div class="col-md-12 border">
+                                                                <div class="avatar avatar-xl m-2">
+                                                                    <img src="assets/img/profile.jpg" alt="..." class="avatar-img rounded">
+                                                                </div>
+                                                                <button type="button" class="btn btn-icon btn-round btn-black ml-5">
+                                                                    <i class="fas fa-print"></i>
+                                                                </button>
+                                                                <button type="button" class="btn btn-icon btn-round btn-primary">
+                                                                    <i class="fas fa-info"></i>
+                                                                </button>
+                                                                <button type="button" class="btn btn-icon btn-round btn-danger">
+                                                                    <i class="fas fa-fingerprint"></i>
+                                                                </button>
+                                                                <a href="anamnesis.html"><button type="button" class="btn btn-icon btn-round btn-secondary">
+                                                                    <i class="fas fa-check-circle"></i>
+                                                                </button></a>
+                                                            </div>
+                                                            <div class="col-md-12 border">
+                                                                <div class="form-group row">
+                                                                    <label class="col-sm-6">Nomor Rekam Medis</label>
+                                                                    <label class="col-sm-6">: 00-00-90-33</label>
+                                                                    <label class="col-sm-6">Nomor BPJS</label>
+                                                                    <label class="col-sm-6">: 8945784521025894</label>
+                                                                    <label class="col-sm-6">Satu Sehat ID</label>
+                                                                    <label class="col-sm-6">: 2145087965874512</label>
+                                                                </div>
+                                                            </div>
+                                                              
+                                                            <div class="col-md-12 border">
+                                                                <div class="form-group row">
+                                                                    <label class="col-sm-6">Nama</label>
+                                                                    <label class="col-sm-6">:</label>
+                                                                    <label class="col-sm-12 bg-warning">RICKY TOGU HAHOLONGAN GULTOM</label>
+                                                                    <label class="col-sm-6">Tempat Lahir dan Umur</label>
+                                                                    <label class="col-sm-6">:</label>
+                                                                    <label class="col-sm-12">03/21/1998 - 26 Thn 4 bln 6 Hr</label>
+                                                                    <label class="col-sm-6">Jenis Kelamin</label>
+                                                                    <label class="col-sm-6">: Laki-Laki</label>
+                                                                    <label class="col-sm-6">Telepon</label>
+                                                                    <label class="col-sm-6">: +62008765678</label>
+                                                                    <label class="col-sm-6">Email</label>
+                                                                    <label class="col-sm-6">: togu@gmail.com</label>
+                                                                    <label class="col-sm-6">Alamat</label>
+                                                                    <label class="col-sm-6">:</label>
+                                                                    <label class="col-sm-12">Jalan Merdeka Putih, Jakarta Indonesia</label>                                                                  
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pelayanan" role="tabpanel" aria-labelledby="pills-profile-tab">
+										<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="pills-home-tab">
+											<div class="container">
+												<div class="page-inner">
+													<div class="row">
+														<div class="col-md-4">
+															<div class="row border">
+																<div class="col-md-12 border">
+																	<div class="form-group row">
+																		<label class="col-sm-6">Tanggal Kunjungan</label>
+																		<label class="col-sm-6">: 25/02/2024</label>
+																		<label class="col-sm-6">Waktu Kunjungan</label>
+																		<label class="col-sm-6">: 08:25:63 WIB</label>
+																		<label class="col-sm-6">Tujuan</label>
+																		<label class="col-sm-6">: Konsultasi</label>
+																		<label class="col-sm-6">Poliklinik</label>
+																		<label class="col-sm-6">: Umum</label>
+																		<label class="col-sm-6">Dokter</label>
+																		<label class="col-sm-6">: dr. Iwan</label>
+																		<label class="col-sm-6">Status</label>
+																		<label class="col-sm-6">: Sedang Dilayani</label>
+																		<label class="col-sm-6">Keterangan</label>
+																		<label class="col-sm-6">: Pasien Asuransi BPJS</label>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>   
+											</div>
+										</div>
+                                    </div>
+                                    <div class="tab-pane fade" id="tagihan" role="tabpanel" aria-labelledby="pills-contact-tab">
+										<div class="container">
+											<div class="page-inner">
+												<div class="row justify-content-center">
+													<div class="col-12 col-lg-10 col-xl-9">
+														<div class="row align-items-center">
+															<div class="col">
+																<h6 class="page-pretitle">
+																	Payments
+																</h6>
+																<h4 class="page-title">Invoice #FDS9876KD</h4>
+															</div>
+															<div class="col-auto">
+																<a href="#" class="btn btn-light btn-border">
+																	Download
+																</a>
+																<a href="#" class="btn btn-primary ml-2">
+																	Pay
+																</a>
+															</div>
+														</div>
+														<div class="page-divider"></div>
+														<div class="row">
+															<div class="col-md-12">
+																<div class="card card-invoice">
+																	<div class="card-header">
+																		<div class="invoice-header">
+																			<h3 class="invoice-title">
+																				Invoice
+																			</h3>
+																			<div class="invoice-logo">
+																				<img src="../assets/img/examples/logoinvoice.svg" alt="company logo">
+																			</div>
+																		</div>
+																		<div class="invoice-desc">
+																			Bandung, West Java, Indonesia<br/>
+																			Fax 621113
+																		</div>
+																	</div>
+																	<div class="card-body">
+																		<div class="separator-solid"></div>
+																		<div class="row">
+																			<div class="col-md-4 info-invoice">
+																				<h5 class="sub">Date</h5>
+																				<p>Dec 21, 2017</p>
+																			</div>
+																			<div class="col-md-4 info-invoice">
+																				<h5 class="sub">Invoice ID</h5>
+																				<p>#FDS9876KD</p>
+																			</div>
+																			<div class="col-md-4 info-invoice">
+																				<h5 class="sub">Invoice To</h5>
+																				<p>
+																					Jane Smith, 1234 Main, Apt. 4B<br/>Springfield, ST 54321 
+																				</p>
+																			</div>
+																		</div>
+																		<div class="row">
+																			<div class="col-md-12">
+																				<div class="invoice-detail">
+																					<div class="invoice-top">
+																						<h3 class="title"><strong>Order summary</strong></h3>
+																					</div>
+																					<div class="invoice-item">
+																						<div class="table-responsive">
+																							<table class="table table-striped">
+																								<thead>
+																									<tr>
+																										<td><strong>Item</strong></td>
+																										<td class="text-center"><strong>Price</strong></td>
+																										<td class="text-center"><strong>Quantity</strong></td>
+																										<td class="text-right"><strong>Totals</strong></td>
+																									</tr>
+																								</thead>
+																								<tbody>
+																									<tr>
+																										<td>BS-200</td>
+																										<td class="text-center">$10.99</td>
+																										<td class="text-center">1</td>
+																										<td class="text-right">$10.99</td>
+																									</tr>
+																									<tr>
+																										<td>BS-400</td>
+																										<td class="text-center">$20.00</td>
+																										<td class="text-center">3</td>
+																										<td class="text-right">$60.00</td>
+																									</tr>
+																									<tr>
+																										<td>BS-1000</td>
+																										<td class="text-center">$600.00</td>
+																										<td class="text-center">1</td>
+																										<td class="text-right">$600.00</td>
+																									</tr>
+																									<tr>
+																										<td></td>
+																										<td></td>
+																										<td class="text-center"><strong>Subtotal</strong></td>
+																										<td class="text-right">$670.99</td>
+																									</tr>
+																									<tr>
+																										<td></td>
+																										<td></td>
+																										<td class="text-center"><strong>Shipping</strong></td>
+																										<td class="text-right">$15</td>
+																									</tr>
+																									<tr>
+																										<td></td>
+																										<td></td>
+																										<td class="text-center"><strong>Total</strong></td>
+																										<td class="text-right">$685.99</td>
+																									</tr>
+																								</tbody>
+																							</table>
+																						</div>
+																					</div>
+																				</div>	
+																				<div class="separator-solid  mb-3"></div>
+																			</div>	
+																		</div>
+																	</div>
+																	<div class="card-footer">
+																		<div class="row">
+																			<div class="col-sm-7 col-md-5 mb-3 mb-md-0 transfer-to">
+																				<h5 class="sub">Bank Transfer</h5>
+																				<div class="account-transfer">
+																					<div><span>Account Name:</span><span>Syamsuddin</span></div>
+																					<div><span>Account Number:</span><span>1234567890934</span></div>
+																					<div><span>Code:</span><span>BARC0032UK</span></div>
+																				</div>
+																			</div>
+																			<div class="col-sm-5 col-md-7 transfer-total">
+																				<h5 class="sub">Total Amount</h5>
+																				<div class="price">$685.99</div>
+																				<span>Taxes Included</span>
+																			</div>
+																		</div>
+																		<div class="separator-solid"></div>
+																		<h6 class="text-uppercase mt-4 mb-3 fw-bold">
+																			Notes
+																		</h6>
+																		<p class="text-muted mb-0">
+																			We really appreciate your business and if there's anything else we can do, please let us know! Also, should you need us to add VAT or anything else to this order, it's super easy since this is a template, so just ask!
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+                                    </div>
+                                </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<nav class="pull-left">
+					<ul class="nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#">
+								INDOSEHAT GROUP
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">
+								CLINIC AND MEDICAL CHECKUP
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">
+								BANTUAN
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="copyright ml-auto">
+					2024, made with <i class="fa fa-heart heart text-danger"></i> by <a href="#">ALBANA</a>
+				</div>				
+			</div>
+		</footer>
+	</div>
+	<!--   Core JS Files   -->
+	<script src="assets/js/core/jquery.3.2.1.min.js"></script>
+	<script src="assets/js/core/popper.min.js"></script>
+	<script src="assets/js/core/bootstrap.min.js"></script>
+
+	<!-- jQuery UI -->
+	<script src="assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+	<script src="assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+
+	<!-- jQuery Scrollbar -->
+	<script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+	<!-- Moment JS -->
+	<script src="assets/js/plugin/moment/moment.min.js"></script>
+
+	<!-- Chart JS -->
+	<script src="assets/js/plugin/chart.js/chart.min.js"></script>
+
+	<!-- jQuery Sparkline -->
+	<script src="assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+
+	<!-- Chart Circle -->
+	<script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+
+	<!-- Datatables -->
+	<script src="assets/js/plugin/datatables/datatables.min.js"></script>
+
+	<!-- Bootstrap Notify -->
+	<script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+
+	<!-- Bootstrap Toggle -->
+	<script src="assets/js/plugin/bootstrap-toggle/bootstrap-toggle.min.js"></script>
+
+	<!-- jQuery Vector Maps -->
+	<script src="assets/js/plugin/jqvmap/jquery.vmap.min.js"></script>
+	<script src="assets/js/plugin/jqvmap/maps/jquery.vmap.world.js"></script>
+
+	<!-- Google Maps Plugin -->
+	<script src="assets/js/plugin/gmaps/gmaps.js"></script>
+
+	<!-- Dropzone -->
+	<script src="assets/js/plugin/dropzone/dropzone.min.js"></script>
+
+	<!-- Fullcalendar -->
+	<script src="assets/js/plugin/fullcalendar/fullcalendar.min.js"></script>
+
+	<!-- DateTimePicker -->
+	<script src="assets/js/plugin/datepicker/bootstrap-datetimepicker.min.js"></script>
+
+	<!-- Bootstrap Tagsinput -->
+	<script src="assets/js/plugin/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>
+
+	<!-- Bootstrap Wizard -->
+	<script src="assets/js/plugin/bootstrap-wizard/bootstrapwizard.js"></script>
+
+	<!-- jQuery Validation -->
+	<script src="assets/js/plugin/jquery.validate/jquery.validate.min.js"></script>
+
+	<!-- Summernote -->
+	<script src="assets/js/plugin/summernote/summernote-bs4.min.js"></script>
+
+	<!-- Select2 -->
+	<script src="assets/js/plugin/select2/select2.full.min.js"></script>
+
+	<!-- Sweet Alert -->
+	<script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+	<!-- Atlantis JS -->
+	<script src="assets/js/atlantis2.min.js"></script>
+
+</body>
+</html>

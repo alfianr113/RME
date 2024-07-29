@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>INDOSEHAT GRUP </title>
+	<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+	<link rel="icon" href="assets/img/logo.png" type="image/x-icon"/>
+
+	<!-- Fonts and icons -->
+	<script src="assets/js/plugin/webfont/webfont.min.js"></script>
+	<script>
+		WebFont.load({
+			google: {"families":["Lato:300,400,700,900"]},
+			custom: {"families":["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands", "simple-line-icons"], urls: ['assets/css/fonts.min.css']},
+			active: function() {
+				sessionStorage.fonts = true;
+			}
+		});
+	</script>
+
+	<!-- CSS Files -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/atlantis2.css">
+
+	<!-- CSS Just for demo purpose, don't include it in your project -->
+	<link rel="stylesheet" href="assets/css/demo.css">
+</head>
+<body>
+	<div class="wrapper horizontal-layout-2">
+		
+		<div class="main-header" data-background-color="light-blue2">
+			<div class="nav-top">
+				<div class="container d-flex flex-row">
+					<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon">
+							<i class="icon-menu"></i>
+						</span>
+					</button>
+					<button class="topbar-toggler more"><i class="icon-options-vertical"></i></button>
+					<!-- Logo Header -->
+					<a href="index.html" class="logo d-flex align-items-center">
+						<img src="assets/img/logoklinik.png" alt="navbar brand" class="navbar-brand">
+					</a>
+					<!-- End Logo Header -->
+
+					<!-- Navbar Header -->
+					<nav class="navbar navbar-header navbar-expand-lg p-0">
+
+						<div class="container-fluid p-0">
+							<div class="collapse" id="search-nav">
+								<form class="navbar-left navbar-form nav-search ml-md-3">
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<button type="submit" class="btn btn-search pr-1">
+												<i class="fa fa-search search-icon"></i>
+											</button>
+										</div>
+										<input type="text" placeholder="Search ..." class="form-control">
+									</div>
+								</form>
+							</div>
+							<ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
+								<li class="nav-item toggle-nav-search hidden-caret">
+									<a class="nav-link" data-toggle="collapse" href="#search-nav" role="button" aria-expanded="false" aria-controls="search-nav">
+										<i class="fa fa-search"></i>
+									</a>
+								</li>
+								<li class="nav-item dropdown hidden-caret">
+									<a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false">
+										<div class="avatar-sm">
+											<img src="assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
+										</div>
+									</a>
+									<ul class="dropdown-menu dropdown-user animated fadeIn">
+										<div class="dropdown-user-scroll scrollbar-outer">
+											<li>
+												<div class="user-box">
+													<div class="avatar-lg"><img src="assets/img/profile.jpg" alt="image profile" class="avatar-img rounded"></div>
+													<div class="u-text">
+														<h4>Hizrian</h4>
+														<p class="text-muted">hello@example.com</p>
+													</div>
+												</div>
+											</li>
+											<li>
+												<a class="dropdown-item" href="#">Account Setting</a>
+												<div class="dropdown-divider"></div>
+												<a class="dropdown-item" href="login.html">Logout</a>
+											</li>
+										</div>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</nav>
+					<!-- End Navbar -->
+				</div>
+			</div>
+			<div class="nav-bottom">
+				<div class="container">
+					<h3 class="title-menu d-flex d-lg-none"> 
+						Menu 
+						<div class="close-menu"> <i class="flaticon-cross"></i></div>
+					</h3>
+					<ul class="nav page-navigation page-navigation-info bg-white">
+						
+						<li class="nav-item submenu active">
+							<a class="nav-link" href="#">
+								<i class="link-icon icon-home"></i>
+								<span class="menu-title">Pendaftaran</span>
+							</a>
+							<div class="navbar-dropdown animated fadeIn">
+								<ul>
+									<li>
+										<a href="pengunjung.html">Pengunjung</a>
+									</li>
+									<li>
+										<a href="pasien.html">Pasien</a>
+									</li>
+									<li>
+										<a href="reservasi.html">Reservasi</a>
+									</li>
+									<li>
+										<a href="rawatJalan.html">Rawat Jalan</a>
+									</li>
+									<li>
+										<a href="rawatInap.html">Rawat Inap</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item submenu mega-menu dropdown">
+							<a class="nav-link" href="#">
+								<i class="link-icon icon-film"></i>
+								<span class="menu-title">Pelayanan</span>
+							</a>
+							<div class="navbar-dropdown animated fadeIn">
+								<div class="col-group-wrapper row">
+									<div class="col-group col-md-4">
+										<div class="row">
+											<div class="col-12">
+												<p class="category-heading">Pendaftaran</p>
+												<div class="submenu-item">
+													<div class="row">
+														<div class="col-md-6">
+															<ul>
+																<li><a href="anjunganMandiri.html">Anjungan Pendaftaran Mandiri</a></li>
+																<li><a href="tambahPasien.html">Pendaftaran Manual</a></li>
+																<li><a href="fingerPrint.html">Finger Print</a></li>
+																<li><a href="registrasi.html">Pengelolaan Antrian</a></li>
+																<li><a href="halamanAntrian.html">Informasi Antrian</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-group col-md-4">
+										<div class="row">
+											<div class="col-12">
+												<p class="category-heading">Kasir</p>
+												<div class="submenu-item">
+													<div class="row">
+														<div class="col-md-6">
+															<ul>
+																<li><a href="transaksiKasir.html">Transaksi</a></li>
+																<li><a href="serahTerimaObat.html">Serah Terima Obat</a></li>
+																<li><a href="jadwalDokter.html">Jadwal Dokter</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-group col-md-4">
+										<p class="category-heading">Farmasi</p>
+										<ul class="submenu-item">
+											<li><a href="daftarObat.html">Daftar Obat</a></li>
+											<li><a href="daftarRacikan.html">Racikan</a></li>
+											<li><a href="transaksiObat.html">Transaksi Obat</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item submenu mega-menu dropdown">
+							<a class="nav-link" href="#">
+								<i class="link-icon icon-film"></i>
+								<span class="menu-title">Manajemen</span>
+							</a>
+							<div class="navbar-dropdown animated fadeIn">
+								<div class="col-group-wrapper row">
+									<div class="col-group col-md-4">
+										<div class="row">
+											<div class="col-12">
+												<p class="category-heading">Syarat dan Ketentuan</p>
+												<div class="submenu-item">
+													<div class="row">
+														<div class="col-md-6">
+															<ul>
+																<li><a href="integrasiBPJS.html">Integrasi BPJS</a></li>
+																<li><a href="integrasiSatuSehat.html">Integrasi Satu Sehat</a></li>
+																<li><a href="programPelatihan.html">Pelatihan Pengguna Aplikasi</a></li>
+																<li><a href="programPendampingan.html">Pendampingan</a></li>
+																<li><a href="programBimbinganAkre.html">Bimbingan AKreditasi</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-group col-md-4">
+										<p class="category-heading">Klinik Pintar</p>
+										<ul class="submenu-item">
+											<li><a href="kamusObat.html">Kamus Obat Elektronik</a></li>
+											<li><a href="Icare.html">ICare</a></li>
+											<li><a href="satuSehatPlatform.html">Satu Sehat Platform</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item submenu">
+							<a class="nav-link" href="#">
+								<i class="link-icon icon-disc"></i>
+								<span class="menu-title">Master Data</span>
+							</a>
+							<div class="navbar-dropdown animated fadeIn">
+								<ul>
+									<p class="category-heading">Data-Data Klinik</p>
+									<li>
+										<a href="informasiKlinik.html">Informasi Klinik</a>
+									</li>
+									<li>
+										<a href="daftarPengguna.html">Pengguna Aplikasi</a>
+									</li>
+									<li>
+										<a href="daftarPenjamin.html">Penjamin</a>
+									</li>
+                                    <li>
+										<a href="daftarPoliklinik.html">Poliklinik</a>
+									</li>
+                                    <li>
+										<a href="daftarLayanan.html">Layanan</a>
+									</li>
+                                    <li>
+										<a href="tenagaKesehatan.html">Tenaga Kesehatan</a>
+									</li>
+                                    <li>
+										<a href="daftarKomisi.html">Komisi Tenaga Kesehatan</a>
+									</li>
+                                    <li>
+										<a href="daftarKamar.html">Kamar Inap</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item submenu">
+							<a class="nav-link" href="#">
+								<i class="link-icon icon-book-open"></i>
+								<span class="menu-title">Laporan</span>
+							</a>
+							<div class="navbar-dropdown animated fadeIn">
+								<ul>
+									<li>
+										<a href="laporanPendapatan.html">Laporan Pendapatan</a>
+									</li>
+									<li>
+										<a href="laporanLayanan.html">Laporan Layanan</a>
+									</li>
+									<li>
+										<a href="laporanInventori.html">Laporan Inventori</a>
+									</li>
+									<li>
+										<a href="laporanPenyakit.html">Laporan Penyakit</a>
+									</li>
+									<li>
+										<a href="laporanKomisi.html">Laporan Komisi</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item submenu">
+							<a class="nav-link" href="#">
+								<i class="link-icon icon-pie-chart"></i>
+								<span class="menu-title">Grafik</span>
+							</a>
+							<div class="navbar-dropdown animated fadeIn">
+								<ul>
+									<li>
+										<a href="grafikPendapatan.html">Grafik Pendapatan</a>
+									</li>
+									<li>
+										<a href="grafikLayanan.html">Grafik Layanan</a>
+									</li>
+									<li>
+										<a href="grafikInventori.html">Grafik Inventori</a>
+									</li>
+									<li>
+										<a href="grafikPenyakit.html">Grafik Penyakit</a>
+									</li>
+									<li>
+										<a href="grafikKomisi.html">Grafik Komisi</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="main-panel">
+			<div class="container">
+				<div class="page-inner">
+					<div class="row">
+                        <div class="col-md-12">
+							<div class="card">
+								<div class="card-body">
+									<div class="row">
+										<div class="col-sm-1 mr-3">
+											<div class="avatar avatar-xl">
+												<img src="assets/img/profile.jpg" alt="..." class="avatar-img rounded">
+											</div>
+										</div>
+										<div class="col-sm-7">
+											<div class="row">
+												<label class="col-sm-4">Nomor Rekam Medis</label>
+												<label class="col-sm-8">: 00-00-90-33</label>
+											</div>
+											<div class="row">
+												<label class="col-sm-4">Nomor BPJS</label>
+												<label class="col-sm-8">: 8945784521025894</label>
+											</div>
+											<div class="row">
+												<label class="col-sm-4">Satu Sehat ID</label>
+												<label class="col-sm-8">: 2145087965874512</label>
+											</div>
+											<div class="row">
+												<label class="col-sm-4">Nama</label>
+												<label class="col-sm-8">: RICKY TOGU HAHOLONGAN GULTOM</label>
+											</div>
+										</div>
+										<div class="col-sm-3 ml-auto">
+											<div class="row ml-auto">
+												<label class="col-sm-12">25/02/2024 - 08:25:63</label>
+											</div>
+											<div class="row ml-auto">
+												<label class="col-sm-12">Poli Umum</label>
+											</div>
+											<div class="row ml-auto">
+												<label class="col-sm-12">dr.Iwan</label>
+											</div>
+											<div class="row ml-auto">
+												<label class="col-sm-12">Sedang Dilayani</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-2">
+							<div class="card p-3">
+								<div class="d-flex align-items-center">
+									<span class="stamp stamp-md bg-secondary mr-3">
+										<i class="fa fa-tint"></i>
+									</span>
+									<div>
+										<h5 class="mb-1"><b><a href="anamnesis.html"><small>Anamnesis</small></a></b></h5>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-2">
+							<div class="card p-3">
+								<div class="d-flex align-items-center">
+									<span class="stamp stamp-md bg-success mr-3">
+										<i class="fa fa-user-md"></i>
+									</span>
+									<div>
+										<h5 class="mb-1"><b><a href="#"><small>Layanan</small></a></b></h5>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-2">
+							<div class="card p-3">
+								<div class="d-flex align-items-center">
+									<span class="stamp stamp-md bg-danger mr-3">
+										<i class="fa fa-swatchbook"></i>
+									</span>
+									<div>
+										<h5 class="mb-1"><b><a href="#"><small>Laborator</small></a></b></h5>
+									</div>
+								</div>
+							</div>
+						</div>
+                        <div class="col-sm-6 col-lg-2">
+							<div class="card p-3">
+								<div class="d-flex align-items-center">
+									<span class="stamp stamp-md bg-warning mr-3">
+										<i class="fa fa-clipboard"></i>
+									</span>
+									<div>
+										<h5 class="mb-1"><b><a href="#"><small>Radiologi</small></a></b></h5>
+									</div>
+								</div>
+							</div>
+						</div>
+                        <div class="col-sm-6 col-lg-2">
+							<div class="card p-3">
+								<div class="d-flex align-items-center">
+									<span class="stamp stamp-md bg-info mr-3">
+										<i class="fa fa-briefcase-medical"></i>
+									</span>
+									<div>
+										<h5 class="mb-1"><b><a href="#"><small>Resep</small></a></b></h5>
+									</div>
+								</div>
+							</div>
+						</div>
+                        <div class="col-sm-6 col-lg-2">
+							<div class="card p-3">
+								<div class="d-flex align-items-center">
+									<span class="stamp stamp-md bg-default mr-3">
+										<i class="fa fa-notes-medical"></i>
+									</span>
+									<div>
+										<h5 class="mb-1"><b><a href="#"><small>Kosultasi</small></a></b></h5>
+									</div>
+								</div>
+							</div>
+						</div>
+                    </div>
+					<div class="row">
+                        <div class="col-md-2">
+							
+                            <a href="404.html"><button type="button" class="btn btn-primary btn-sm btn-link">Alergi</button></a>
+                            <a href="alergi"></a><button type="button" class="btn btn-primary btn-sm btn-block">Riwayat Penyakit Dahulu</button>
+                            <a href="alergi"></a><button type="button" class="btn btn-primary btn-sm btn-block">Histori Kunjungan Pasien</button>
+                            <a href="alergi"></a><button type="button" class="btn btn-primary btn-sm btn-block">Grafik</button>
+                            <a href="alergi"></a><button type="button" class="btn btn-primary btn-sm btn-block">Gambar</button>
+                            <a href="alergi"></a><button type="button" class="btn btn-primary btn-sm btn-block">Profil Pribadi</button>
+                            <a href="alergi"></a><button type="button" class="btn btn-primary btn-sm btn-block">Riwayat Keluhan</button>
+                            <a href="alergi"></a><button type="button" class="btn btn-primary btn-sm btn-block">Surat Keterangan</button>
+                            <a href="alergi"></a><button type="button" class="btn btn-primary btn-sm btn-block">Pemeriksaaan Penunjang</button>
+                            <a href="alergi"></a><button type="button" class="btn btn-primary btn-sm btn-block">Rujukan</button>
+                            <a href="alergi"></a><button type="button" class="btn btn-primary btn-sm btn-block">Resume</button>
+                            <a href="alergi"></a><button type="button" class="btn btn-primary btn-sm btn-block">Jadwal Pasien</button>
+                            <a href="alergi"></a><button type="button" class="btn btn-primary btn-sm btn-block">Pantau DiEN</button>
+                            <a href="alergi"></a><button type="button" class="btn btn-primary btn-sm btn-block">Ring. Skrining</button>
+                            <a href="alergi"></a><button type="button" class="btn btn-primary btn-sm btn-block">Biodata</button>
+                        </div>
+						<div class="col-md-10">
+							<div class="card">
+								<div class="card-header">
+									<div class="card-title">Resume Medis</div>
+								</div>
+								<div class="card-body">   
+                                    <div class="row">                           
+                                        <div class="col-sm-4">
+                                            <div class="accordion accordion-secondary">
+                                                <div class="card">
+                                                    <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#keluhanUtama" aria-expanded="true" aria-controls="collapseOne" role="button">
+                                                        <div class="span-title">
+                                                            Form Keluhan Utama
+                                                        </div>
+                                                        <div class="span-mode"></div>
+                                                    </div>
+                                                    <div id="keluhanUtama" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-9">
+                                                                <textarea type="text" class="form-control" readonly id="inputPassword3" name="no_rekam_medis" placeholder="Masukan Keluhan Utama" required></textarea>
+                                                            </div>
+                                                            <button type="button" class="btn btn-icon btn-black col-sm-2">
+                                                                <i class="far fa-edit"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="accordion accordion-secondary">
+                                                <div class="card">
+                                                    <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#riwayatPenyakit" aria-expanded="true" aria-controls="collapseOne" role="button">
+                                                        <div class="span-title">
+                                                            Form Riwayat Penyakit
+                                                        </div>
+                                                        <div class="span-mode"></div>
+                                                    </div>
+                                                    <div id="riwayatPenyakit" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-9">
+                                                                <textarea type="text" class="form-control" readonly id="inputPassword3" name="no_rekam_medis" placeholder="Masukan Keluhan Utama" required></textarea>
+                                                            </div>
+                                                            <button type="button" class="btn btn-icon btn-black col-sm-2">
+                                                                <i class="far fa-edit"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="accordion accordion-secondary">
+                                                <div class="card">
+                                                    <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#penyakitDahulu" aria-expanded="true" aria-controls="collapseOne" role="button">
+                                                        <div class="span-title">
+                                                            Form Riwayat Penyakit Dahulu
+                                                        </div>
+                                                        <div class="span-mode"></div>
+                                                    </div>
+                                                    <div id="penyakitDahulu" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-9">
+                                                                <textarea type="text" class="form-control" readonly id="inputPassword3" name="no_rekam_medis" placeholder="Masukan Keluhan Utama" required></textarea>
+                                                            </div>
+                                                            <button type="button" class="btn btn-icon btn-black col-sm-2">
+                                                                <i class="far fa-edit"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">                           
+                                        <div class="col-sm-4">
+                                            <div class="accordion accordion-secondary">
+                                                <div class="card">
+                                                    <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#rencanaTerapi" aria-expanded="true" aria-controls="collapseOne" role="button">
+                                                        <div class="span-title">
+                                                            Form Rencana Terapi
+                                                        </div>
+                                                        <div class="span-mode"></div>
+                                                    </div>
+                                                    <div id="rencanaTerapi" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-9">
+                                                                <textarea type="text" class="form-control" readonly id="inputPassword3" name="no_rekam_medis" placeholder="Masukan Keluhan Utama" required></textarea>
+                                                            </div>
+                                                            <button type="button" class="btn btn-icon btn-black col-sm-2">
+                                                                <i class="far fa-edit"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="accordion accordion-secondary">
+                                                <div class="card">
+                                                    <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#eduEmergency" aria-expanded="true" aria-controls="collapseOne" role="button">
+                                                        <div class="span-title">
+                                                            Form Edukasi Emergency
+                                                        </div>
+                                                        <div class="span-mode"></div>
+                                                    </div>
+                                                    <div id="eduEmergency" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-9">
+                                                                <textarea type="text" class="form-control" readonly id="inputPassword3" name="no_rekam_medis" placeholder="Masukan Keluhan Utama" required></textarea>
+                                                            </div>
+                                                            <button type="button" class="btn btn-icon btn-black col-sm-2">
+                                                                <i class="far fa-edit"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="accordion accordion-secondary">
+                                                <div class="card">
+                                                    <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#jadwalKontrol" aria-expanded="true" aria-controls="collapseOne" role="button">
+                                                        <div class="span-title">
+                                                            Form Jadwal Kontrol
+                                                        </div>
+                                                        <div class="span-mode"></div>
+                                                    </div>
+                                                    <div id="jadwalKontrol" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-9">
+                                                                <textarea type="text" class="form-control" readonly id="inputPassword3" name="no_rekam_medis" placeholder="Masukan Keluhan Utama" required></textarea>
+                                                            </div>
+                                                            <button type="button" class="btn btn-icon btn-black col-sm-2">
+                                                                <i class="far fa-edit"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">                           
+                                        <div class="col-sm-12">
+                                            <div class="accordion accordion-secondary">
+                                                <div class="card">
+                                                    <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#pemeriksaanUmum" aria-expanded="true" aria-controls="collapseOne" role="button">
+                                                        <div class="span-title">
+                                                            Tabel Pemeriksaan Umum
+                                                        </div>
+                                                        <div class="span-mode"></div>
+                                                    </div>
+                                                    <div id="pemeriksaanUmum" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                                        <div class="table-responsive">
+                                                            <table id="add-row" class="display table table-striped table-hover" >
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>No</th>
+                                                                        <th>Keadan Umum</th>
+                                                                        <th>Tingkat Kesadaran</th>
+                                                                        <th>GCS</th>
+                                                                        <th>Sistolik</th>
+                                                                        <th>Distolik</th>
+                                                                        <th>Frekuensi Nadi</th>
+                                                                        <th>Frekuensi Nafas</th>
+                                                                        <th>Suhu</th>
+                                                                        <th>Saturasi</th>
+                                                                        <th>Waktu Pemeriksaan</th>
+                                                                        <th>Alat Bantu Nafas</th>
+                                                                        <th>Umur dalam Bulan</th>
+                                                                        <th>Skor</th>
+                                                                        <th style="width: 10%">Action</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">                           
+                                        <div class="col-sm-12">
+                                            <div class="accordion accordion-secondary">
+                                                <div class="card">
+                                                    <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#tblDiagnosa" aria-expanded="true" aria-controls="collapseOne" role="button">
+                                                        <div class="span-title">
+                                                            Tabel Diagnosa
+                                                        </div>
+                                                        <div class="span-mode"></div>
+                                                    </div>
+                                                    <div id="tblDiagnosa" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                                        <div class="table-responsive">
+                                                            <table id="add-row1" class="display table table-striped table-hover" >
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>No</th>
+                                                                        <th>Kode ICD (10)</th>
+                                                                        <th>Deskripsi</th>
+                                                                        <th>Diagnosa</th>
+                                                                        <th>Kategori</th>
+                                                                        <th>Inacbg</th>
+                                                                        <th style="width: 10%">Action</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">                           
+                                        <div class="col-sm-4">
+                                            <div class="accordion accordion-secondary">
+                                                <div class="card">
+                                                    <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#indRawatInap" aria-expanded="true" aria-controls="collapseOne" role="button">
+                                                        <div class="span-title">
+                                                            Indikasi Rawat Inap
+                                                        </div>
+                                                        <div class="span-mode"></div>
+                                                    </div>
+                                                    <div id="indRawatInap" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-12">
+                                                                <textarea type="text" class="form-control" id="inputPassword3" name="no_rekam_medis" placeholder="Masukan Keluhan Utama" required></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="accordion accordion-secondary">
+                                                <div class="card">
+                                                    <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#rencanaDiet" aria-expanded="true" aria-controls="collapseOne" role="button">
+                                                        <div class="span-title">
+                                                            Rencana Diet
+                                                        </div>
+                                                        <div class="span-mode"></div>
+                                                    </div>
+                                                    <div id="rencanaDiet" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-12">
+                                                                <textarea type="text" class="form-control" id="inputPassword3" name="no_rekam_medis" placeholder="Masukan Keluhan Utama" required></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="accordion accordion-secondary">
+                                                <div class="card">
+                                                    <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#hasilPenunjang" aria-expanded="true" aria-controls="collapseOne" role="button">
+                                                        <div class="span-title">
+                                                            Hasil Penunjang Lainnya
+                                                        </div>
+                                                        <div class="span-mode"></div>
+                                                    </div>
+                                                    <div id="hasilPenunjang" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-12">
+                                                                <textarea type="text" class="form-control" id="inputPassword3" name="no_rekam_medis" placeholder="Masukan Keluhan Utama" required></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">                           
+                                        <div class="col-sm-4">
+                                            <div class="accordion accordion-secondary">
+                                                <div class="card">
+                                                    <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#alergiObat" aria-expanded="true" aria-controls="collapseOne" role="button">
+                                                        <div class="span-title">
+                                                            Alergi (Reaksi Obat)
+                                                        </div>
+                                                        <div class="span-mode"></div>
+                                                    </div>
+                                                    <div id="alergiObat" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-12">
+                                                                <textarea type="text" class="form-control" id="inputPassword3" name="no_rekam_medis" placeholder="Masukan Keluhan Utama" required></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="accordion accordion-secondary">
+                                                <div class="card">
+                                                    <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#deskLab" aria-expanded="true" aria-controls="collapseOne" role="button">
+                                                        <div class="span-title">
+                                                            Deskripsi Hasil Laboratorium
+                                                        </div>
+                                                        <div class="span-mode"></div>
+                                                    </div>
+                                                    <div id="deskLab" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-12">
+                                                                <textarea type="text" class="form-control" id="inputPassword3" name="no_rekam_medis" placeholder="Masukan Keluhan Utama" required></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="accordion accordion-secondary">
+                                                <div class="card">
+                                                    <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#deskRadio" aria-expanded="true" aria-controls="collapseOne" role="button">
+                                                        <div class="span-title">
+                                                            Deskripsi Hasil Radiologi
+                                                        </div>
+                                                        <div class="span-mode"></div>
+                                                    </div>
+                                                    <div id="deskRadio" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-12">
+                                                                <textarea type="text" class="form-control" id="inputPassword3" name="no_rekam_medis" placeholder="Masukan Keluhan Utama" required></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">                           
+                                        <div class="col-sm-4">
+                                            <div class="accordion accordion-secondary">
+                                                <div class="card">
+                                                    <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#ruangan" aria-expanded="true" aria-controls="collapseOne" role="button">
+                                                        <div class="span-title">
+                                                            Ruangan
+                                                        </div>
+                                                        <div class="span-mode"></div>
+                                                    </div>
+                                                    <div id="ruangan" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-12">
+                                                                <textarea type="text" class="form-control" id="inputPassword3" name="no_rekam_medis" placeholder="Masukan Keluhan Utama" required></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <div class="accordion accordion-secondary">
+                                                <div class="card">
+                                                    <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#tblLab" aria-expanded="true" aria-controls="collapseOne" role="button">
+                                                        <div class="span-title">
+                                                            Tabel Hasil Laboratorium
+                                                        </div>
+                                                        <div class="span-mode"></div>
+                                                    </div>
+                                                    <div id="tblLab" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                                        <div class="table-responsive">
+                                                            <table id="add-row2" class="display table table-striped table-hover" >
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Nama Tindakan</th>
+                                                                        <th>Parameter</th>
+                                                                        <th>Hasil</th>
+                                                                        <th>Nilai Normal</th>
+                                                                        <th>Satuan</th>
+                                                                        <th>Status</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">                           
+                                        <div class="col-sm-12">
+                                            <div class="accordion accordion-secondary">
+                                                <div class="card">
+                                                    <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#tblRadio" aria-expanded="true" aria-controls="collapseOne" role="button">
+                                                        <div class="span-title">
+                                                            Tabel Hasil Radiologi
+                                                        </div>
+                                                        <div class="span-mode"></div>
+                                                    </div>
+                                                    <div id="tblRadio" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                                        <div class="table-responsive">
+                                                            <table id="add-row3" class="display table table-striped table-hover" >
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Nama Tindakan</th>
+                                                                        <th>Klinis</th>
+                                                                        <th>Kesan</th>
+                                                                        <th>Usul</th>
+                                                                        <th>Hasil</th>
+                                                                        <th>Status</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="dashboard.php" class="btn btn-danger" >Simpan</a>
+                                    <button type="submit" class="btn btn-primary">Resep</button>
+                                    
+                                  </div>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<nav class="pull-left">
+					<ul class="nav">
+						<li class="nav-item">
+							<a class="nav-link" href="http://www.themekita.com">
+								ThemeKita
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">
+								Help
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">
+								Licenses
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="copyright ml-auto">
+					2018, made with <i class="fa fa-heart heart text-danger"></i> by <a href="http://www.themekita.com">ThemeKita</a>
+				</div>				
+			</div>
+		</footer>
+		
+	</div>
+	<!--   Core JS Files   -->
+	<script src="assets/js/core/jquery.3.2.1.min.js"></script>
+	<script src="assets/js/core/popper.min.js"></script>
+	<script src="assets/js/core/bootstrap.min.js"></script>
+
+	<!-- jQuery UI -->
+	<script src="assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+	<script src="assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+
+	<!-- jQuery Scrollbar -->
+	<script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+	<!-- Moment JS -->
+	<script src="assets/js/plugin/moment/moment.min.js"></script>
+
+	<!-- Chart JS -->
+	<script src="assets/js/plugin/chart.js/chart.min.js"></script>
+
+	<!-- jQuery Sparkline -->
+	<script src="assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+
+	<!-- Chart Circle -->
+	<script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+
+	<!-- Datatables -->
+	<script src="assets/js/plugin/datatables/datatables.min.js"></script>
+
+	<!-- Bootstrap Notify -->
+	<script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+
+	<!-- Bootstrap Toggle -->
+	<script src="assets/js/plugin/bootstrap-toggle/bootstrap-toggle.min.js"></script>
+
+	<!-- jQuery Vector Maps -->
+	<script src="assets/js/plugin/jqvmap/jquery.vmap.min.js"></script>
+	<script src="assets/js/plugin/jqvmap/maps/jquery.vmap.world.js"></script>
+
+	<!-- Google Maps Plugin -->
+	<script src="assets/js/plugin/gmaps/gmaps.js"></script>
+
+	<!-- Dropzone -->
+	<script src="assets/js/plugin/dropzone/dropzone.min.js"></script>
+
+	<!-- Fullcalendar -->
+	<script src="assets/js/plugin/fullcalendar/fullcalendar.min.js"></script>
+
+	<!-- DateTimePicker -->
+	<script src="assets/js/plugin/datepicker/bootstrap-datetimepicker.min.js"></script>
+
+	<!-- Bootstrap Tagsinput -->
+	<script src="assets/js/plugin/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>
+
+	<!-- Bootstrap Wizard -->
+	<script src="assets/js/plugin/bootstrap-wizard/bootstrapwizard.js"></script>
+
+	<!-- jQuery Validation -->
+	<script src="assets/js/plugin/jquery.validate/jquery.validate.min.js"></script>
+
+	<!-- Summernote -->
+	<script src="assets/js/plugin/summernote/summernote-bs4.min.js"></script>
+
+	<!-- Select2 -->
+	<script src="assets/js/plugin/select2/select2.full.min.js"></script>
+
+	<!-- Sweet Alert -->
+	<script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+	<!-- Atlantis JS -->
+	<script src="assets/js/atlantis2.min.js"></script>
+
+	<script >
+		$(document).ready(function() {
+			$('#basic-datatables').DataTable({
+			});
+
+			$('#multi-filter-select').DataTable( {
+				"pageLength": 5,
+				initComplete: function () {
+					this.api().columns().every( function () {
+						var column = this;
+						var select = $('<select class="form-control"><option value=""></option></select>')
+						.appendTo( $(column.footer()).empty() )
+						.on( 'change', function () {
+							var val = $.fn.dataTable.util.escapeRegex(
+								$(this).val()
+								);
+
+							column
+							.search( val ? '^'+val+'$' : '', true, false )
+							.draw();
+						} );
+
+						column.data().unique().sort().each( function ( d, j ) {
+							select.append( '<option value="'+d+'">'+d+'</option>' )
+						} );
+					} );
+				}
+			});
+
+			// Add Row
+			$('#add-row').DataTable({
+				"pageLength": 5,
+			});
+
+			var action = '<td> <div class="form-button-action"> <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task"> <i class="fa fa-edit"></i> </button> <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Remove"> <i class="fa fa-times"></i> </button> </div> </td>';
+
+			$('#addRowButton').click(function() {
+				$('#add-row').dataTable().fnAddData([
+					$("#addName").val(),
+					$("#addPosition").val(),
+					$("#addOffice").val(),
+					action
+					]);
+				$('#addRowModal').modal('hide');
+
+			});
+
+            $('#add-row1').DataTable({
+				"pageLength": 5,
+			});
+
+			var action = '<td> <div class="form-button-action"> <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task"> <i class="fa fa-edit"></i> </button> <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Remove"> <i class="fa fa-times"></i> </button> </div> </td>';
+
+			$('#addRowButton').click(function() {
+				$('#add-row').dataTable().fnAddData([
+					$("#addName").val(),
+					$("#addPosition").val(),
+					$("#addOffice").val(),
+					action
+					]);
+				$('#addRowModal').modal('hide');
+
+			});
+//
+            $('#add-row2').DataTable({
+				"pageLength": 5,
+			});
+
+			var action = '<td> <div class="form-button-action"> <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task"> <i class="fa fa-edit"></i> </button> <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Remove"> <i class="fa fa-times"></i> </button> </div> </td>';
+
+			$('#addRowButton').click(function() {
+				$('#add-row').dataTable().fnAddData([
+					$("#addName").val(),
+					$("#addPosition").val(),
+					$("#addOffice").val(),
+					action
+					]);
+				$('#addRowModal').modal('hide');
+
+			});
+            //
+            $('#add-row3').DataTable({
+				"pageLength": 5,
+			});
+
+			var action = '<td> <div class="form-button-action"> <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task"> <i class="fa fa-edit"></i> </button> <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Remove"> <i class="fa fa-times"></i> </button> </div> </td>';
+
+			$('#addRowButton').click(function() {
+				$('#add-row').dataTable().fnAddData([
+					$("#addName").val(),
+					$("#addPosition").val(),
+					$("#addOffice").val(),
+					action
+					]);
+				$('#addRowModal').modal('hide');
+
+			});
+		});
+	</script>
+    <script>
+      $( function() {
+	$( "#slider" ).slider({
+		range: "min",
+		max: 10,
+		value: 0,
+	});
+	$( "#slider-range" ).slider({
+		range: true,
+		min: 0,
+		max: 500,
+		values: [ 75, 300 ]
+	});
+});
+        </script>
+</body>
+</html>
